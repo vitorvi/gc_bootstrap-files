@@ -8,7 +8,9 @@
  * Forked from Normalize.css, licensed MIT (https://github.com/necolas/normalize.css/blob/master/LICENSE.md)
  */
 
+@import "custom_functions";
 @import "functions";
+@import "custom_variables";
 @import "variables";
 @import "mixins";
 @import "reboot";
