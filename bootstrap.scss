@@ -7,26 +7,28 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
-@import "custom_functions";
+	@import "custom_functions";
 @import "functions";
-@import "custom_variables";
+	@import "custom_variables";
 @import "variables";
 @import "mixins";
 @import "root";
 @import "print";
 @import "reboot";
-@import "custom_type";
+	@import "custom_reboot";
 @import "type";
+	@import "custom_type";
 @import "images";
 @import "code";
-@import "custom_grid";
+	@import "custom_grid";
 @import "grid";
 @import "tables";
-@import "custom_forms";
 @import "forms";
+	@import "custom_forms";
 @import "buttons";
+	@import "custom_buttons";
 @import "transitions";
-@import "custom_transitions";
+	@import "custom_transitions";
 @import "dropdown";
 @import "button-group";
 @import "input-group";
@@ -48,3 +50,9 @@
 @import "popover";
 @import "carousel";
 @import "utilities";
+	@import "header";
+	@import "footer";
+	@import "home";
+	@import "trabalhos";
+	@import "trabalho";
+	@import "sobre";
